@@ -1,12 +1,11 @@
-package algorithms.graph_theory.even_tree
+package algorithms.warmup.simple_array_sum
 
 import algorithms.IOSpec
 
 class SolutionTest extends IOSpec {
 
-  "Even Tree" should "work" in {
+  "Simple Array Sum" should "work" in {
     captureOutputWithInput(s"$prefix/test")(Solution.main(Array.empty)) shouldEqual readFileToString(s"$prefix/expected")
-
   }
 
 }

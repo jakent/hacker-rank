@@ -1,12 +1,11 @@
-package algorithms.graph_theory.even_tree
+package algorithms.warmup.diagonal_difference
 
 import algorithms.IOSpec
 
 class SolutionTest extends IOSpec {
 
-  "Even Tree" should "work" in {
+  "Diagonal difference" should "work" in {
     captureOutputWithInput(s"$prefix/test")(Solution.main(Array.empty)) shouldEqual readFileToString(s"$prefix/expected")
-
   }
 
 }

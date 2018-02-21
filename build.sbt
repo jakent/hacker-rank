@@ -8,6 +8,7 @@ lazy val root = (project in file(".")).
       version      := "0.1.0-SNAPSHOT"
     )),
     name := "HackerRank",
+    parallelExecution in Test := false,
     libraryDependencies ++= Seq(
       scalaTest % Test,
       parserCombinators
